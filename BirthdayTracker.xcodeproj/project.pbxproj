@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		FD0ADAFD284CEF1E00E9D230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADAFC284CEF1E00E9D230 /* AppDelegate.swift */; };
 		FD0ADAFF284CEF1E00E9D230 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADAFE284CEF1E00E9D230 /* SceneDelegate.swift */; };
-		FD0ADB01284CEF1E00E9D230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADB00284CEF1E00E9D230 /* ViewController.swift */; };
+		FD0ADB01284CEF1E00E9D230 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADB00284CEF1E00E9D230 /* AddBirthdayViewController.swift */; };
 		FD0ADB04284CEF1E00E9D230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0ADB02284CEF1E00E9D230 /* Main.storyboard */; };
 		FD0ADB07284CEF1E00E9D230 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADB05284CEF1E00E9D230 /* BirthdayTracker.xcdatamodeld */; };
 		FD0ADB09284CEF1F00E9D230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0ADB08284CEF1F00E9D230 /* Assets.xcassets */; };
 		FD0ADB0C284CEF1F00E9D230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0ADB0A284CEF1F00E9D230 /* LaunchScreen.storyboard */; };
+		FD0ADB14284E2D5E00E9D230 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADB13284E2D5E00E9D230 /* Birthday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD0ADAF9284CEF1E00E9D230 /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0ADAFC284CEF1E00E9D230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD0ADAFE284CEF1E00E9D230 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD0ADB00284CEF1E00E9D230 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD0ADB00284CEF1E00E9D230 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		FD0ADB03284CEF1E00E9D230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD0ADB06284CEF1E00E9D230 /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		FD0ADB08284CEF1F00E9D230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0ADB0B284CEF1F00E9D230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0ADB0D284CEF1F00E9D230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0ADB13284E2D5E00E9D230 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		FD0ADAFB284CEF1E00E9D230 /* BirthdayTracker */ = {
 			isa = PBXGroup;
 			children = (
+				FD0ADB13284E2D5E00E9D230 /* Birthday.swift */,
 				FD0ADAFC284CEF1E00E9D230 /* AppDelegate.swift */,
 				FD0ADAFE284CEF1E00E9D230 /* SceneDelegate.swift */,
-				FD0ADB00284CEF1E00E9D230 /* ViewController.swift */,
+				FD0ADB00284CEF1E00E9D230 /* AddBirthdayViewController.swift */,
 				FD0ADB02284CEF1E00E9D230 /* Main.storyboard */,
 				FD0ADB08284CEF1F00E9D230 /* Assets.xcassets */,
 				FD0ADB0A284CEF1F00E9D230 /* LaunchScreen.storyboard */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0ADB01284CEF1E00E9D230 /* ViewController.swift in Sources */,
+				FD0ADB14284E2D5E00E9D230 /* Birthday.swift in Sources */,
+				FD0ADB01284CEF1E00E9D230 /* AddBirthdayViewController.swift in Sources */,
 				FD0ADAFD284CEF1E00E9D230 /* AppDelegate.swift in Sources */,
 				FD0ADAFF284CEF1E00E9D230 /* SceneDelegate.swift in Sources */,
 				FD0ADB07284CEF1E00E9D230 /* BirthdayTracker.xcdatamodeld in Sources */,
