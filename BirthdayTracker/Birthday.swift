@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Birhday {
+class Birthday {
     
     var firstName: String
     var lastName: String

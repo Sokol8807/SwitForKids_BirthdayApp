@@ -7,6 +7,12 @@
 
 import UIKit
 
+protocol AddBirthdayViewControllerDelegate {
+    
+    func addBirthdayViewController(_ AddBirthdayViewController: AddBirthdayViewController, didAddBirthdaybirthday: Birthday)
+    
+}
+
 class AddBirthdayViewController: UIViewController {
 
     @IBOutlet weak var firstNameTextField: UITextField!
@@ -14,7 +20,7 @@ class AddBirthdayViewController: UIViewController {
     @IBOutlet weak var birthdatePicker: UIDatePicker!
     
     
-    
+    var delegate: AddBirthdayViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,12 +37,18 @@ class AddBirthdayViewController: UIViewController {
         
         let birthdate = birthdatePicker.date
         
-        let newBirthday = Birhday(firstName: firstName, lastName: lastName, birthdate: birthdate)
+        let newBirthday = Birthday(firstName: firstName, lastName: lastName, birthdate: birthdate)
+  
         
-        print("Cоздана новая запись о ДР")
-        print("Имя: \(newBirthday.firstName)")
-        print("Фамилия: \(newBirthday.lastName)")
-        print("День рождения: \(birthdate)")
+        delegate?.addBirthdayViewController(self, didAddBirthdaybirthday: newBirthday)
+        
+        dismiss(animated: true, completion: nil)
+        
+        
+//        print("Cоздана новая запись о ДР")
+//        print("Имя: \(newBirthday.firstName)")
+//        print("Фамилия: \(newBirthday.lastName)")
+//        print("День рождения: \(birthdate)")
     }
     
     @IBAction func cancelTapped(_ sender: UIBarButtonItem) {
