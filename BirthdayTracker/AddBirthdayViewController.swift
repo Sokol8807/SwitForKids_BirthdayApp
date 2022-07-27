@@ -45,10 +45,7 @@ class AddBirthdayViewController: UIViewController {
         dismiss(animated: true, completion: nil)
         
         
-//        print("Cоздана новая запись о ДР")
-//        print("Имя: \(newBirthday.firstName)")
-//        print("Фамилия: \(newBirthday.lastName)")
-//        print("День рождения: \(birthdate)")
+
     }
     
     @IBAction func cancelTapped(_ sender: UIBarButtonItem) {
