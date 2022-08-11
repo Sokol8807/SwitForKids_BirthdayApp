@@ -14,7 +14,6 @@
 		FD0ADB07284CEF1E00E9D230 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADB05284CEF1E00E9D230 /* BirthdayTracker.xcdatamodeld */; };
 		FD0ADB09284CEF1F00E9D230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0ADB08284CEF1F00E9D230 /* Assets.xcassets */; };
 		FD0ADB0C284CEF1F00E9D230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0ADB0A284CEF1F00E9D230 /* LaunchScreen.storyboard */; };
-		FD0ADB14284E2D5E00E9D230 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADB13284E2D5E00E9D230 /* Birthday.swift */; };
 		FDF2D4B728591D9100EB3A48 /* BirthdayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF2D4B628591D9100EB3A48 /* BirthdayTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		FD0ADB08284CEF1F00E9D230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0ADB0B284CEF1F00E9D230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0ADB0D284CEF1F00E9D230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD0ADB13284E2D5E00E9D230 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		FDF2D4B628591D9100EB3A48 /* BirthdayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 			children = (
 				FD0ADAFC284CEF1E00E9D230 /* AppDelegate.swift */,
 				FD0ADAFE284CEF1E00E9D230 /* SceneDelegate.swift */,
-				FD0ADB13284E2D5E00E9D230 /* Birthday.swift */,
 				FD0ADB00284CEF1E00E9D230 /* AddBirthdayViewController.swift */,
 				FDF2D4B628591D9100EB3A48 /* BirthdayTableViewController.swift */,
 				FD0ADB02284CEF1E00E9D230 /* Main.storyboard */,
@@ -148,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF2D4B728591D9100EB3A48 /* BirthdayTableViewController.swift in Sources */,
-				FD0ADB14284E2D5E00E9D230 /* Birthday.swift in Sources */,
 				FD0ADB01284CEF1E00E9D230 /* AddBirthdayViewController.swift in Sources */,
 				FD0ADAFD284CEF1E00E9D230 /* AppDelegate.swift in Sources */,
 				FD0ADAFF284CEF1E00E9D230 /* SceneDelegate.swift in Sources */,
